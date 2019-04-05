@@ -56,7 +56,7 @@ export default class Search extends Component {
                 {this.state.products && this.state.products.length > 0 && (
                     this.state.products.map((item, i) => (
                         <li key={ i }>
-                            <Link to={`/items/${item.id}`} >{item.title}</Link>
+                            <Link to={`/items/${item.id}`}>{item.title}</Link>
                         </li>
                     ))
                 )}
