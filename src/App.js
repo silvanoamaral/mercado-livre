@@ -4,21 +4,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './Home/Home';
 import Search from './Search/Search';
 import Product from './Product/Product';
-import NotFound from './NotFound/NotFound';
 
-import './App.css';
+import './App.scss';
+
 class App extends Component {
-    componentDidMount() {
-        
-    }
+
     render() {
-        
         return (
             <Router>
-                <div className="container">
+                <div>
                     <Route path='/' exact component={ Home } />
                     <Route path='/items/:productId' component={ Product } />
-                    <Route path='/items' exact search={ '?search=:search' } component={ Search } />                                
+                    <Route path='/items' exact search={ '?search=:search' } component={ Search } />
                 </div>
             </Router>
         );
