@@ -7,7 +7,7 @@ Project Mercado Livre Go [here](https://projeto-mercado-livre.herokuapp.com/).
 ## Developed With
 
 * React
-* HTML
+* HTML / HTML5
 * CSS / SASS / BEM
 * Javascript / ES6
 * Heroku
