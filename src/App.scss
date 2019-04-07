@@ -56,6 +56,11 @@ main {
             }
         }
     }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
 }
 
 @keyframes spin {

@@ -35,6 +35,15 @@ export default class Product extends Component {
         this.getData(params.productId);
     }
 
+    convertToCurrency(input) {
+        let value = input.toString();
+        value = value.replace(/([0-9]{2})$/g, ",$1");
+        if( value.length > 6 )
+            value = value.replace(/([0-9]{3}),([0-9]{2}$)/g, ".$1,$2");
+
+        return value;
+    }
+
     render() {
         const prod = this.state.product;
 
@@ -52,10 +61,12 @@ export default class Product extends Component {
                                 <h2>{ prod.title }</h2>
                                 <div className="price">
                                     <span>R$ </span>
-                                    <span>{ prod.base_price }</span>
+                                    <span>{ this.convertToCurrency(prod.base_price) }</span>
                                 </div>
+                                <span className="page__product--iten-pay">Comprar</span>
                             </div>
                             <div className="page__product--description">
+                                <h3>Descrição do Produto</h3>
                                 <pre>{ this.state.description.plain_text }</pre>
                             </div>
                         </div>
