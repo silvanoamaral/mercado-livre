@@ -1,3 +1,5 @@
+@import "../Style/variables";
+
 .page__product {
     &--image {
         float: left;
@@ -70,12 +72,12 @@
         }
 
         &-pay {
-            background: #3483fa;
+            background: $bg-btn-pay;
             border-radius: 4px;
             display: block;
             text-align: center;
             padding: 15px;
-            color: #fff;
+            color: $color-white;
             font-size: 20px;
             cursor: pointer;
             margin-top: 40px;
@@ -116,7 +118,7 @@
         }
 
         pre {
-            color: #666;
+            color: $color-padrao;
             display: block;
             font-size: 16px;
             white-space: pre-line;

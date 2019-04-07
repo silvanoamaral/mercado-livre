@@ -5,8 +5,7 @@ import Home from './Home/Home';
 import Search from './Search/Search';
 import Product from './Product/Product';
 
-import './App.scss';
-
+import './Style/App.scss';
 class App extends Component {
 
     render() {

@@ -1,3 +1,5 @@
+@import "/variables";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,7 +10,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: $bg-body;
 }
 
 img {
@@ -21,7 +23,7 @@ main {
 }
 
 .content {
-    background: #fff;
+    background: $color-white;
     border-radius: 6px;
     overflow: hidden;
     -webkit-box-sizing: border-box;
@@ -72,8 +74,8 @@ main {
 }
 
 .loading {
-    border: 8px solid rgba(0, 0, 0, 0.1);
-    border-left-color: #fff159;
+    border: 8px solid $border-loading;
+    border-left-color: $bg-loading;
     border-radius: 50%;
     width: 50px;
     height: 50px;

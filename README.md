@@ -30,8 +30,10 @@ Project Mercado Livre Go [here](https://projeto-mercado-livre.herokuapp.com/).
 │   ├── Search
 │   │   └── Search.js
 │   │   └── Search.scss
+│   ├── Style
+│   │   └── App.scss
+│   │   └── variables.scss
 │   └── App.js
-│   └── App.scss
 │   └── index.css
 │   └── index.js
 │   └── serviceWorkes.js

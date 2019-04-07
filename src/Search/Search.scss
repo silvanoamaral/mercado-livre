@@ -1,4 +1,4 @@
-$icon-shipping: url('/ic_shipping.png');
+@import "../Style/variables";
 
 .page__search {
     .products {
@@ -15,11 +15,11 @@ $icon-shipping: url('/ic_shipping.png');
             bottom: 0;
             height: 1px;
             width: 100%;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid $border-color;
         }
 
         a {            
-            color: #333;
+            color: $color-link;
             display: block;    
             text-decoration: none;
         }
