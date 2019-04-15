@@ -50,7 +50,7 @@ class Header extends Component {
                                 onChange={ this.handleChange }
                                 placeholder="Buscar produtos, marcas e muito mais..."
                             />
-                            <button className="search__form--btn" onClick={this.addItem}>
+                            <button className="search__form--btn">
                                 <i className="search__form--btn-icon"><span>Buscar</span></i>
                             </button>
                         </form>
