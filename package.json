@@ -11,6 +11,10 @@
     "react-scripts": "2.1.5",
     "serve": "^10.1.2"
   },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1"
+  },
   "scripts": {
     "dev": "PORT=8000 react-scripts start --mode development --open --inline --hot",
     "start": "serve -s build",
