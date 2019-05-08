@@ -37,7 +37,7 @@ class Header extends Component {
             <header className="header" role="banner">
                 <div className="content">
                     <h1 className="logo">
-                        <a href='/'>Mercado Livre</a>
+                        <Link to="/">Mercado Livre</Link>
                     </h1>
                     <div className="search">
                         <form onSubmit={ this.handleSubmit } autoComplete="off" role="search" className="search__form">
