@@ -1,12 +1,8 @@
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { shallow, mount, render } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-import { configure } from 'enzyme'
 
 import Header from '../Header/Header'
-
-configure({ adapter: new Adapter() })
 
 describe('Header Component', () => {
     it('renders without crashing', () => {

@@ -19,7 +19,7 @@
     "dev": "PORT=8000 react-scripts start --mode development --open --inline --hot",
     "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --watch --colors",
     "test:jest": "jest --updateSnapshot --coverage --watch",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
