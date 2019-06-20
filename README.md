@@ -10,6 +10,7 @@ Project Mercado Livre Go [here](https://projeto-mercado-livre.herokuapp.com/).
 * HTML / HTML5
 * CSS / SASS / BEM
 * Javascript / ES6
+* Babel
 * Heroku
 * Usability
 
